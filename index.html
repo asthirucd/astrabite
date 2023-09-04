@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Astrabite</title>
+  <link rel="icon" type="image/ico" href="/logon.png">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="style1.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <!-- MDB -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.3.0/css/roboto.min.css">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.3.0/css/material-fullpalette.min.css">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.3.0/css/ripples.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.3.0/js/material.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.3.0/js/ripples.min.js"></script>
+</head>
+
+<body>
+  <div class="topnav" id="myTopnav">
+    <!-- <div class="container-fluid"> -->
+    <img src="logon.png" class="logo" width="50px" />
+    <a href="#about">About Us</a>
+    <a href="#gaming">Gaming</a>
+    <a href="#3dprint">3D Printing</a>
+    <a href="#studios">Studios</a>
+    <a href="#contact">Contact Us</a>
+    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+  </div>
+  </div>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
+
+  <div class="card text-dark">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner banner-swiper">
+        <div class="carousel-item active bannerSwiper" data-bs-interval="1500">
+          <img src="game4.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item bannerSwiper" data-bs-interval="1500">
+          <img src="game1.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item bannerSwiper" data-bs-interval="1500">
+          <img src="game2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item bannerSwiper" data-bs-interval="1500">
+          <img src="game3.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+    </div>
+    <div class="card-img-overlay text-center">
+      <img src="banner.png" width="50%">
+    </div>
+  </div>
+  <div class="banner" id="about">
+    <div class="about-us">
+      <p class="mx-5 mb-5 text-center">Astrabite is a Gaming & Design Studio where imagination comes to life through
+        stunning visual effects and captivating gaming experiences.
+        With a passionate team of creative professionals and cutting-edge technology, we deliver immersive worlds for
+        film, television, and advertising. Our state-of-the-art
+        facilities and commitment to excellence ensure exceptional results that exceed expectations. From breathtaking
+        VFX to unforgettable gaming adventures, join us on an
+        incredible journey where possibilities are limitless. Contact us today and let's bring your visions to life!</p>
+    </div>
+    <video autoplay loop src="astraunot.mp4" class="vid"></video>
+  </div>
+  <div class="custom-container" id="gaming">
+    <div class="row brder">
+      <div class="col-md-6 content">
+        <h2 class="header2">Gaming</h2>
+        <P class="servicecontent">Unlock limitless creativity with our unparalleled game
+          designing service. We transform ideas into
+          immersive gaming experiences, crafting captivating narratives, stunning visuals, and seamless gameplay. Our
+          team of seasoned designers leverages
+          cutting-edge technology to bring your visions to life, ensuring every detail aligns with your vision. </P>
+        <p class="servicecontent moretextgaming">
+          From indie gems to blockbuster hits, we tailor each project to your unique needs, delivering exceptional games
+          that resonate with players. Join us on
+          a journey where imagination knows no bounds, and let's create games that leave a lasting mark in the digital
+          realm.
+          Elevate your concept to reality with our expert game designing service.
+        </P>
+        <span class="moreless-button-gaming" href="#">Read more</span>
+        </P>
+        <!-- <div>
+          <button type="button" class="btn btn-primary">Read More</button>
+        </div> -->
+
+      </div>
+      <div class="col-md-6 img text-center">
+        <div id="carouselExampleInterval3" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner service-carousel">
+            <div class="carousel-item active" data-bs-interval="2000">
+              <img src="tournament.jpg" class="d-block w-100" alt="...">
+              <figcaption class="caption">
+                <h3 class="font">E-Sports</h3>
+                <!-- <p class="mb-0 text-small font-italic text-muted">Lorem ipsum dolor.</p> -->
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="gamedesign.jpg" class="d-block w-100" alt="...">
+              <figcaption class="caption">
+                <h3 class="font">Game Design</h3>
+                <!-- <p class="mb-0 text-small font-italic text-muted">Lorem ipsum dolor.</p> -->
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="gamecode.jpg" class="d-block w-100" alt="...">
+              <figcaption class="caption">
+                <h3 class="font">Game Coding</h3>
+                <!-- <p class="mb-0 text-small font-italic text-muted">Lorem ipsum dolor.</p> -->
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="gamedesign.jpg" class="d-block w-100" alt="...">
+              <figcaption class="caption">
+                <h3 class="font">Character Designing</h3>
+                <!-- <p class="mb-0 text-small font-italic text-muted">Lorem ipsum dolor.</p> -->
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval3"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval3"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="custom-container" id="3dprint">
+    <div class="row brder">
+      <div class="col-md-6 img text-center">
+        <!-- <div class="picture"></div>
+        <img class="bg-move right" src="3dprinter.png" alt="" height="60%" width="65%" />-->
+        <div id="carouselExampleInterval2" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner service-carousel">
+            <div class="carousel-item active" data-bs-interval="2000">
+              <img src="3dprinting.png" class="d-block w-100" alt="...">
+              <figcaption class="">
+                <h3 class="font">3D Printing</h3>
+                <!-- <p class="mb-0 text-small font-italic text-muted">Lorem ipsum dolor.</p> -->
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="3dast.jpg" class="d-block w-100" alt="...">
+              <figcaption class="">
+                <h3 class="font">3D Modeling</h3>
+                <!-- <p class="mb-0 text-small font-italic text-muted">Lorem ipsum dolor.</p> -->
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="3diron.jpg" class="d-block w-100" alt="...">
+              <figcaption class="">
+                <h3 class="font">Gifting</h3>
+                <!-- <p class="mb-0 text-small font-italic text-muted">Lorem ipsum dolor.</p> -->
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval2"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval2"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <div class="col-md-6 content">
+        <h2 class="header2">3D Printing</h2>
+        <p class="servicecontent">
+          Experience the future of creation with our 3D printing service. We turn ideas into tangible reality by
+          harnessing the power of cutting-edge 3D printing
+          technology. From intricate prototypes to personalized objects, we craft precision with every layer, ensuring
+          unparalleled quality and detail. Our expert
+          team collaborates with you to bring your concepts to life, offering a seamless journey from design to finished
+          product.</p>
+        <p class="servicecontent moretextprinting">
+          Whether you're an innovator, artist, or entrepreneur, our
+          3D printing service caters to diverse needs, providing limitless possibilities. Discover a new dimension of
+          manufacturing – where imagination materializes
+          into the extraordinary. Welcome to the realm of limitless innovation with our unrivaled 3D printing service.
+        </P>
+        <span class="moreless-button-printing" href="#">Read more</span>
+        </p>
+        <!-- <div>
+          <button type="button" class="btn btn-primary">Read More</button>
+        </div> -->
+      </div>
+    </div>
+  </div>
+  <div class="custom-container" id="studios">
+    <div class="row brder">
+      <div class="col-md-6 content">
+        <h2 class="header2">Studios</h2>
+        <p class="servicecontent">Step into the realm of creative mastery with our dynamic studios. We specialize in
+          video editing, VFX, and animation, turning
+          concepts into captivating visual stories. Our team of skilled professionals brings imagination to life,
+          seamlessly blending technology and artistry.
+          Harness the power of cutting-edge software as we craft compelling narratives, stunning visual effects, and
+          lifelike animations. </p>
+        <p class="servicecontent moretextstudio">From corporate projects to cinematic wonders, we tailor each creation
+          to your
+          unique vision. With a commitment to excellence, we transform ideas into immersive experiences that resonate.
+          Elevate your storytelling with our studios – where innovation meets
+          imagination, and every frame tells a remarkable tale.</p>
+        <span class="moreless-button-studio" href="#">Read more</span>
+        </p>
+        <!-- <div>
+          <button type="button" class="btn btn-primary">Read More</button>
+        </div> -->
+      </div>
+      <div class="col-md-6 img text-center">
+        <div id="carouselExampleInterval1" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner service-carousel">
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="videoedit.png" class="d-block w-100" alt="...">
+              <figcaption class="">
+                <h3 class="font">Video Editing</h3>
+                <!-- <p class="mb-0 text-small font-italic text-muted">Lorem ipsum dolor.</p> -->
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="animation.PNG" class="d-block w-100" alt="...">
+              <figcaption class="">
+                <h3 class="font">Animation</h3>
+                <!-- <p class="mb-0 text-small font-italic text-muted">Lorem ipsum dolor.</p> -->
+            </div>
+            <div class="carousel-item active" data-bs-interval="2000">
+              <img src="vfx.jpg" class="d-block w-100" alt="...">
+              <figcaption class="">
+                <h3 class="font">VFX & CGI</h3>
+                <!-- <p class="mb-0 text-small font-italic text-muted">Lorem ipsum dolor.</p> -->
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval1"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval1"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  </div>
+  </div>
+
+  <footer class="footer">
+    <div class="custom-container" style="margin-top: 0;padding-top: 0;">
+      <div class="row mt-2">
+        <div class="col-md-6 text-center">
+          <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
+          <h5 class="text-center w-responsive mx-auto mb-5">Want to Visit our studios drop your details !!</h5>
+          <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+            <!--Grid column-->
+            <div class="row">
+
+              <div class="col-md-6">
+                <div class="md-form mb-4">
+                  <input type="text" name="name" id="inputMDEx" class="form-control">
+                  <label for="name" class="">Your name</label>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="md-form mb-4">
+                  <input type="text" name="email" id="email" name="email" class="form-control">
+                  <label for="email" class="">Your email</label>
+                </div>
+              </div>
+              <!--Grid column-->
+
+            </div>
+            <!--Grid row-->
+
+            <!--Grid row-->
+            <div class="row">
+              <div class="col-md-6">
+                <div class="md-form mb-4">
+                  <input type="tel" id="tel" name="tel" class="form-control">
+                  <label for="tel" class="">Your phone no.</label>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="md-form mb-4">
+                  <input type="text" id="company_name" name="company name" class="form-control">
+                  <label for="company name" class="">Company Name</label>
+                </div>
+              </div>
+            </div>
+            <!--Grid row-->
+
+            <!--Grid row-->
+            <div class="row">
+
+              <!--Grid column-->
+              <div class="col-md-12">
+
+                <div class="md-form mt-4">
+                  <textarea type="text" id="message" name="message" rows="2"
+                    class="form-control md-textarea"></textarea>
+                  <label for="message">Your message</label>
+                </div>
+                <div class="text-center text-md-left">
+                  <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+                </div>
+                <div class="status"></div>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="col-md-2 text-center pt-5">
+          <ul class="list-unstyled mb-0">
+            <li><i class="fas fa-map-marker-alt fa-4x"></i>
+              <p class="pt-3">524, laxmi Plaza, SAB TV Lane, Laxmi Industrial Estate, Andheri West MUM-400047</p>
+            </li>
+
+            <li><i class="fas fa-phone mt-4 fa-4x"></i>
+              <p class="pt-3">+ 91 91363 12099</p>
+            </li>
+
+            <li><i class="fas fa-envelope mt-4 fa-4x"></i>
+              <p class="pt-3">info@astrabite.com</p>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <h2 class="h1-responsive font-weight-bold text-center my-4">Astrabite</h2>
+            </div>
+            <div class="row">
+              <div class="col-md-6 text-center">
+                <h4 class="text-center w-responsive mx-auto mb-3 mt-3">About us</h4>
+                <ul class="list-unstyled">
+                  <a href="#" class="footer-link p-0 text-muted">
+                    <li class="footer-li">Our Team</li>
+                  </a>
+                  <a href="#" class="footer-link p-0 text-muted">
+                    <li class="footer-li">Our Policies</li>
+                  </a>
+                </ul>
+              </div>
+              <div class="col-md-6 text-center">
+                <h4 class="text-center w-responsive mx-auto mb-3 mt-3">Services</h5>
+                  <ul class="list-unstyled">
+                    <a href="#gaming" class="footer-link p-0 text-muted">
+                      <li class="footer-li">Gaming</li>
+                    </a>
+                    <a href="#3dprint" class="footer-link p-0 text-muted">
+                      <li class="footer-li">3D Printing</li>
+                    </a>
+                    <a href="#studios" class="footer-link p-0 text-muted">
+                      <li class="footer-li">Studios</li>
+                    </a>
+                  </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Section: Contact v.2-->
+      <div class="row pt-4 brdr-top lower-footer" id="contact">
+        <div class="col-md-6 col-lg-8 mb-md-0 mb-4">
+          <p class="copyright mb-0">
+            Copyright © 2023 All rights reserved. <br>
+            Powered By<a href="#"><img class="footer-logo" src="vjlaxmi.png" alt="Vijay Laxmi"></a>
+            <a href="https://www.vtexoverseas.com/"><img class="footer-logo" src="vtex.png" alt="V-Tex" height="15%"
+                width="15%"></a>
+          </p>
+        </div>
+        <div class="col-md-6 col-lg-4 text-md-right">
+          <ul class="justify-content-end list-unstyled d-flex">
+            <li class="ms-3">
+              <a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Twitter">
+                <i class="fas fa-square-phone-flip fa-2x ioccolor"></i>
+              </a>
+            </li>
+            <li class="ms-3">
+              <a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Facebook">
+                <i class="fab fa-facebook-square fa-2x ioccolor"></i>
+              </a>
+            </li>
+            <li class="ms-3">
+              <a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Instagram">
+                <i class="fab fa-instagram-square fa-2x ioccolor"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script>
+    $('.moreless-button-gaming').click(function () {
+      $('.moretextgaming').slideToggle();
+      if ($('.moreless-button-gaming').text() == "Read more") {
+        $(this).text("Read less")
+      } else {
+        $(this).text("Read more")
+      }
+    });
+  </script>
+  <script>
+    $('.moreless-button-printing').click(function () {
+      $('.moretextprinting').slideToggle();
+      if ($('.moreless-button-printing').text() == "Read more") {
+        $(this).text("Read less")
+      } else {
+        $(this).text("Read more")
+      }
+    });
+  </script>
+  <script>
+    $('.moreless-button-studio').click(function () {
+      $('.moretextstudio').slideToggle();
+      if ($('.moreless-button-studio').text() == "Read more") {
+        $(this).text("Read less")
+      } else {
+        $(this).text("Read more")
+      }
+    });
+  </script>
+
+  <script>
+    $(document).ready(function () {
+      var navbar = $(".navbar");
+      var footer = $(".showfooter");
+
+      $(window).on("scroll", function () {
+        var footerOffset = footer.offset().top;
+        var windowHeight = $(window).height();
+        var scrollPosition = $(window).scrollTop();
+
+        if (scrollPosition + windowHeight >= footerOffset) {
+          navbar.fadeOut(400);
+        } else {
+          navbar.fadeIn(400);
+        }
+      });
+    });
+  </script>
+
+</body>
+
+</html>
