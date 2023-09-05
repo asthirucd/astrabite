@@ -282,6 +282,9 @@ a:hover {
   font-weight: bold;
 }
 
+.carousel-control-prev-icon,.carousel-control-next-icon{
+  opacity: 0.3;
+}
 
 @media screen and (min-width: 280px){
   .card-img-overlay img{
