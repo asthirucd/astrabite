@@ -30,7 +30,7 @@ body {
 
 @font-face {
   font-family: "robo";
-  src: url(robo/ROBO.ttf);
+  src: url(robo/robo.ttf);
 }
 
 @font-face {
@@ -96,7 +96,7 @@ body {
 }
 
 .servicecontent {
-  font-family: robo;
+  font-family: ELNATH;
   font-size: x-large;
   color: #dc6243;
 }
@@ -114,6 +114,7 @@ body {
   border-style: outset;
   background-color: #c3dfff;
   border-radius: 50px;
+  margin: 0px;
 }
 
 .content {
@@ -127,7 +128,6 @@ body {
   padding-bottom: 4%;
 }
 .service-carousel {
-  margin: 100px auto;
   width: 500px;
   height: 70%;
   
@@ -156,7 +156,6 @@ border-radius:  50px 50px;
   height: 70%;
   width: 50%;
   /* position: relative; */
-  margin: -10px;
   padding-bottom: 20px;
   position: relative;
 }
@@ -452,7 +451,6 @@ a:hover {
   .service-carousel {
       width: 300px;
       height: 100%;
-      margin: 10px;
      }
   .servicecontent {
       font-family: robo;
@@ -618,7 +616,6 @@ a:hover {
   .service-carousel {
       width: 300px;
       height: 100%;
-      margin: 10px;
      }
   .servicecontent {
       font-family: robo;
@@ -680,7 +677,6 @@ a:hover {
     padding-bottom: 0px!important;
   }
   .service-carousel {
-    margin: 100px auto;
     width: 600px!important;
     border-radius: 50px 50px 50px 50px;
   }
