@@ -286,6 +286,12 @@ a:hover {
   opacity: 0.3;
 }
 
+.carousel{
+  display: inline-block;
+  text-align: center;
+  margin-top: 10%;
+}
+
 @media screen and (min-width: 280px){
   .card-img-overlay img{
     margin-top: 25%!important;
