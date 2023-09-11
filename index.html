@@ -82,7 +82,11 @@
         VFX to unforgettable gaming adventures, join us on an
         incredible journey where possibilities are limitless. Contact us today and let's bring your visions to life!</p>
     </div>
-    <video autoplay loop src="astraunot.mp4" class="vid"></video>
+    <video id="video" src="astraunot.mp4" autoplay loop muted></video>
+    <script>
+      var video = document.getElementById('video');
+      video.play();
+    </script>
   </div>
   <div class="custom-container" id="gaming">
     <div class="row brder">
@@ -442,26 +446,6 @@
       }
     });
   </script>
-
-  <script>
-    $(document).ready(function () {
-      var navbar = $(".navbar");
-      var footer = $(".showfooter");
-
-      $(window).on("scroll", function () {
-        var footerOffset = footer.offset().top;
-        var windowHeight = $(window).height();
-        var scrollPosition = $(window).scrollTop();
-
-        if (scrollPosition + windowHeight >= footerOffset) {
-          navbar.fadeOut(400);
-        } else {
-          navbar.fadeIn(400);
-        }
-      });
-    });
-  </script>
-
 </body>
 
 </html>
