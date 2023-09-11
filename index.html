@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+     <link rel="icon" type="image/ico" href="/logon.png">
+</head>
+<body>
+<video id="video" src="load.mp4" autoplay loop muted></video>
+<script>
+  var video = document.getElementById('video');
+
+  document.querySelector('video').playbackRate = 0.5;
+  video.play();
+
+  setTimeout(function() {
+    // $('video').fadeOut(2000); 
+    window.location.href = 'home.html';
+  }, 2000);
+</script>
+    <!-- <video id="vid" src="astraunot.mp4"></video> -->
+    
+</body>
+</html>
