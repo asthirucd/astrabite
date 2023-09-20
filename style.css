@@ -736,6 +736,30 @@ a:hover {
     padding: 5% !important;
   }
 }
+@media screen and (min-width: 1441px) and (max-width: 1710px) {
+  .topnav img {
+    margin-right: 35%!important;
+  }
+  .about-us p {
+    font-size: 22px!important;
+    padding-top: 25px!important;
+    margin-top: 8%!important;
+  }
+  .brder .col-md-6{
+    flex: 0 0 auto!important;
+    width: 50%!important;
+    padding-top: 3%!important;
+  }
+  .banner-swiper img{
+    height: 95vh!important;
+  }
+  .servicecontent{
+    font-size: large!important;
+  }
+  .content{
+    padding: 5% !important;
+  }
+}
 @media screen and (max-width: 500px){
   .header2{
     font-size: x-large!important;
