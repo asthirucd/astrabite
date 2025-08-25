@@ -10,17 +10,17 @@ body {
 }
 @font-face {
   font-family: ELNATH;
-  src: url(elnath/ELNATH.ttf);
+  src: url(Fonts/elnath/ELNATH.ttf);
 }
 
 @font-face {
   font-family: "conthrax";
-  src: url(conthrax/conthrax-sb.otf);
+  src: url(Fonts/conthrax/conthrax-sb.otf);
 }
 
 @font-face {
   font-family: "cyberdyne";
-  src: url(cyberdyne/cyberdyne.ttf);
+  src: url(Fonts/cyberdyne/cyberdyne.ttf);
 }
 
 @font-face {
